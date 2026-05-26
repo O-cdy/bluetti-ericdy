@@ -16,3 +16,9 @@
 - `wrangler.toml` 中 R2 / `PUBLIC_BASE_URL` 保持注释，待用户申请 R2 后启用。
 - 新增 `rpa/config.py`、`rpa/upload_image.py`（`WORKER_URL` 指向联调地址）。
 - 新增 `scripts/test_external_worker_once.py`：仅 8 字节 PNG 头，联调通过。
+
+## 2026-05-26T02:13:00Z
+
+- 绑定自有 R2：`blt-bucket` → `IMAGES`。
+- 配置 `PUBLIC_BASE_URL` 为 `https://pub-969a2af2412a49999666d27f7d21bda1.r2.dev`。
+- `rpa/config.py` 切换为自有 Worker：`https://bluetti-ericdy.ericcdy.workers.dev`。

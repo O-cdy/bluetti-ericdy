@@ -5,10 +5,9 @@ compatibility_date = "2026-05-25"
 [observability]
 enabled = true
 
-# --- 申请 R2 后取消注释并填写 ---
-# [[r2_buckets]]
-# binding = "IMAGES"
-# bucket_name = "your-bucket-name"
-#
-# [vars]
-# PUBLIC_BASE_URL = "https://pub-xxxxxxxx.r2.dev"
+[[r2_buckets]]
+binding = "IMAGES"
+bucket_name = "blt-bucket"
+
+[vars]
+PUBLIC_BASE_URL = "https://pub-969a2af2412a49999666d27f7d21bda1.r2.dev"
