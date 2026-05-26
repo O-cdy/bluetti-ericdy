@@ -1,4 +1,4 @@
-name = "bluett-ericdy"
+name = "bluetti-ericdy"
 main = "src/index.ts"
 compatibility_date = "2026-05-25"
 
